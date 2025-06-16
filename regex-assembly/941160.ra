@@ -55,7 +55,7 @@
 
 
 ##!> assemble
-  (?:<\w.*[\s/]|['\"](?:.*[\s/])?)
+  (?:<\w[^\s/]*[\s/]|['\"](?:[^\s/]*[\s/])?)
   ##!=< html-properties-prefix
 ##!<
 
@@ -365,6 +365,7 @@
   onwebkitanimationend
   onwebkitanimationiteration
   onwebkitanimationstart
+  onwebkitplaybacktargetavailabilitychanged
   onwebkittransitionend
   onwheel
   onzoom

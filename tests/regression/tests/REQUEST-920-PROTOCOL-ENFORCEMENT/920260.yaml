@@ -1,4 +1,6 @@
 ---
+# NOTE: these tests don't work with nginx on macOS (3.0.12), until the next release.
+# See https://github.com/owasp-modsecurity/ModSecurity/issues/3135#issuecomment-2099134853.
 meta:
   author: "csanders-git, azurit"
 rule_id: 920260
@@ -38,7 +40,7 @@ tests:
           dest_addr: "127.0.0.1"
           port: 80
           uri: "/get?param=foo%uFF01"
-          version: "HTTP/1.0"
+          version: "HTTP/1.1"
           headers:
             User-Agent: "OWASP CRS test agent"
             Host: "localhost"
