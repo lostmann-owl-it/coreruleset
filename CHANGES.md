@@ -5,6 +5,70 @@
   or the CRS Google Group at
 * https://groups.google.com/a/owasp.org/g/modsecurity-core-rule-set-project
 
+## Version 4.18.0 - 2025-MM-DD
+
+TBD
+
+## Version 4.17.1 - 2025-08-05
+
+## What's Changed
+### ⭐ Important changes
+* chore: removed detection for LaTeX injection by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4221
+### 🧰 Other Changes
+* fix(942340): remove dot star by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4220
+
+
+**Full Changelog**: https://github.com/coreruleset/coreruleset/compare/v4.17.0...v4.17.1
+## Version 4.17.0 - 2025-07-31
+
+## What's Changed
+### ⭐ Important changes
+* feat: remove PCI DSS tags (#4194) by @pha6d in https://github.com/coreruleset/coreruleset/pull/4203
+### 🆕 New features and detections 🎉
+* feat: added detection for ASP.NET errors by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4092
+* feat: added detection for RCE via Referer header by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/3993
+* feat: added detection for LaTeX injection by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4206
+* feat: added detection for ruby errors and code leakage by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4089
+### 🧰 Other Changes
+* fix(951xxx): remove dot star by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4171
+* fix: use word bondary on 952110 to avoid matching non-java errors by @EsadCetiner in https://github.com/coreruleset/coreruleset/pull/4177
+* feat: Update java-classes.data by @KIC-8462852 in https://github.com/coreruleset/coreruleset/pull/4173
+* fix(931130): update file uri with single slash by @fzipi in https://github.com/coreruleset/coreruleset/pull/4193
+* fix(932281): avoid matching on json payloads by @EsadCetiner in https://github.com/coreruleset/coreruleset/pull/4187
+* fix: 932280/932281 bypass by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4207
+
+## New Contributors
+* @KIC-8462852 made their first contribution in https://github.com/coreruleset/coreruleset/pull/4173
+* @pha6d made their first contribution in https://github.com/coreruleset/coreruleset/pull/4203
+
+**Full Changelog**: https://github.com/coreruleset/coreruleset/compare/v4.16.0...v4.17.0
+
+## Version 4.16.0 - 2025-06-29
+
+## What's Changed
+### 🆕 New features and detections 🎉
+* feat: remediation for Python SSTI by @TheRubick in https://github.com/coreruleset/coreruleset/pull/4145
+* fix: update rule 942560 by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4161
+* feat: detect generic config filenames by @EsadCetiner in https://github.com/coreruleset/coreruleset/pull/4102
+* feat: update `java-errors.data` by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4113
+* feat: added rule to detect Bash Brace Expansion by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/3780
+* feat: added MongoDB operators by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4162
+### 🧰 Other Changes
+* fix(941160): remove dot star by @fzipi in https://github.com/coreruleset/coreruleset/pull/4155
+* fix(934140): remove dot star by @fzipi in https://github.com/coreruleset/coreruleset/pull/4165
+* fix(932370): remove dot star by @fzipi in https://github.com/coreruleset/coreruleset/pull/4166
+* fix(955xxx): remove dot star by @Xhoenix in https://github.com/coreruleset/coreruleset/pull/4169
+* fix(933150): moving printf to 933160 for additional php syntax check (933150 PL-1, 933160 PL-1) by @EsadCetiner in https://github.com/coreruleset/coreruleset/pull/3840
+* fix: create a stricter sibling to 932370 and move `at` to PL-2 (932370 PL-1, 932371 PL-2) by @EsadCetiner in https://github.com/coreruleset/coreruleset/pull/4015
+* fix(942340): remove dot star by @fzipi in https://github.com/coreruleset/coreruleset/pull/4164
+* refactor(942340): move to regex assembly by @fzipi in https://github.com/coreruleset/coreruleset/pull/4014
+* fix(933160): remove dot star by @fzipi in https://github.com/coreruleset/coreruleset/pull/4167
+
+## New Contributors
+* @TheRubick made their first contribution in https://github.com/coreruleset/coreruleset/pull/4145
+
+**Full Changelog**: https://github.com/coreruleset/coreruleset/compare/v4.15.0...v4.16.0
+
 ## Version 4.15.0 - 2025-06-03
 
 ## What's Changed

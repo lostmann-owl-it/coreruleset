@@ -30,6 +30,9 @@
 
 ## Contributors:
 
+- [pha6d](https://github.com/pha6d)
+- [KIC-8462852](https://github.com/KIC-8462852)
+- [Muhammad Ayman](https://github.com/TheRubick)
 - [Thibault Soubiran](https://github.com/S0obi)
 - [OhMyVolk](https://github.com/OhMyVolk)
 - [evidencebp](https://github.com/evidencebp)
